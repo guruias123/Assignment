@@ -1,0 +1,140 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.left{
+    background-color: #d4d2d2;
+    width: 50vw;
+    /* padding: 50px; */
+}
+
+.right{
+    /* height: 100%; */
+    width: 50vw;
+}
+
+.sub_left{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px 100px 20px 100px;
+}
+
+.left_img{
+    width: 300px;
+    height: 300px ;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+hr{
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+}
+
+
+/* progress bar */
+.container1 {
+    background-color: white;
+    width: 100%;
+}
+
+.skill {
+    background-color: rgb(131, 145, 127);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+}
+
+.html {
+    width: 60%;
+    height: 10px;
+}
+
+.html2 {
+    width: 80%;
+    height: 10px;
+}
+
+.html3 {
+    width: 40%;
+    height: 10px;
+}
+
+@media screen and (max-width: 993px) {
+    .left_img{
+        width: 200px;
+        height: 200px ;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .left{
+        background-color: #d4d2d2;
+       
+    }
+    
+    
+    .sub_left{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 20px 50px 20px 50px;
+    }
+  }
+  @media screen and (max-width: 795px) {
+    .left_img{
+        width: 200px;
+        height: 200px ;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .left{
+        background-color: #d4d2d2;
+        /* width: 50vw;
+        padding: 50px; */
+    }
+    
+    
+    .sub_left{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 20px 50px 20px 50px;
+    }
+  }
+  @media screen and (max-width: 631px) {
+    .left_img{
+        width: 100px;
+        height: 100px ;
+        border-radius: 50%;
+        display: inline-block;
+    }
+   
+  }
+  @media screen and (max-width: 392px) {
+    .left_img{
+        width: 70px;
+        height: 70px ;
+        border-radius: 50%;
+        display: inline-block;
+    }
+   
+  }
+
+  @media screen and (max-width: 392px) {
+    .left_img{
+        width: 70px;
+        height: 70px ;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    
+   
+  }
